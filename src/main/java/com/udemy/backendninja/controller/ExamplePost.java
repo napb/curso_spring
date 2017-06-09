@@ -34,6 +34,7 @@ public class ExamplePost {
 	public String mostrar(Model model){
 		model.addAttribute("person",new Person());
 		return vista;
+		
 	}
 	
 	@PostMapping("/addperson")
