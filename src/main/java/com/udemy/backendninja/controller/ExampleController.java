@@ -34,5 +34,4 @@ public class ExampleController {
 		mv.addObject("people", exampleService.listPeople());
 		return mv;
 	}
-	
 }
